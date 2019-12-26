@@ -1,9 +1,11 @@
 import React from 'react';
 
-export default MainLayout = ({ children }) => {
+const MainLayout = ({ children }) => {
   return (
     <div className='wrapper'>
       {children}
     </div>
   )
 }
+
+export default MainLayout;

@@ -8,7 +8,7 @@ const rootElement = document.getElementById('react-app');
 
 const App = () => (
   <MainLayout>
-    <h1>Hello APP</h1>
+    <h1 className='hello'>Hello APP</h1>
   </MainLayout>
 )
 

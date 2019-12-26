@@ -261,4 +261,141 @@ color: #262626;
   margin-bottom: 30px;
 }
 
+.dates {
+  display: flex;
+ justify-content: space-evenly;
+ margin-top: 20px;
+}
+
+.payment-heading {
+  font-family: Segoe UI;
+font-size: 36px;
+line-height: 48px;
+display: flex;
+align-items: flex-end;
+height: 30px;
+color: #262626;
+margin: 27px 33px 22px 33px;
+}
+
+.react-table{
+  margin: 27px 33px 22px 33px;
+  background: #FFFFFF;
+  height:auto;
+}
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#students {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+  background: #FFFFFF;
+
+}
+
+#students td, #students th {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+
+#students tr:hover {background-color: #ddd;}
+
+#students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #EAEEF0;
+  color: #7F8FA4
+}
+
+#type-row {
+  align-items: center;
+  display: flex;
+}
+
+.pagination-search {
+  margin-bottom: 20px;
+  background: #E5E5E5;
+  width: 100%;
+}
+
+#select-length {
+  width: 70px; 
+  flex: 0 0 auto; 
+  margin: 0px 10px; 
+  display: inline-block; 
+  float: none;
+  text-decoration: none;
+}
+
+.current-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #E5E5E5;
+}
+
+
+.button {
+  border: 1px solid #CED0DA;
+box-sizing: border-box;
+border-radius: 2px;
+display: flex;
+}
+
+.previous {
+  font-family: Segoe UI;
+font-size: 13px;
+line-height: 17px;
+display: flex;
+align-items: flex-end;
+color: #000000;
+}
+
+.pd-5 {
+  padding: 5px
+}
+
+.mg-l-r {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.current {
+  background: #1875F0;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-input {
+  border: none;
+  width: 230px;
+  margin-left: 15px;
+}
+
+.support {
+font-family: Segoe UI;
+font-size: 14px;
+line-height: 19px;
+align-self: center;
+color: #647787;
+}
+
+.custom-table {
+  background: #E5E5E5;
+}
+
 

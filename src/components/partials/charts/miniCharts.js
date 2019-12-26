@@ -1,7 +1,7 @@
 import React from 'react';
 import Chart from '../../chart';
 
-const DATA = [
+export const DATA = [
   {
     name: 'Jul', uv: 3350
   },

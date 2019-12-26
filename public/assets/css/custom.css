@@ -137,4 +137,54 @@
   align-items: center;
 }
 
+.figures-text {
+  left: 7.11%;
+right: 39.53%;
+top: 24%;
+bottom: 54.67%;
+font-family: Segoe UI;
+font-size: 12px;
+line-height: 16px;
+color: #787C90;
+}
+
+.figures-number {
+font-family: Segoe UI;
+font-size: 18px;
+line-height: 24px;
+color: #262626;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.mini-charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin: 33px;
+}
+
+.mini-chart {
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  margin: 5px;
+  padding: 10px;
+}
+
+.title-figure {
+  display: flex;
+  flex-direction: column;
+}
+
+.mini-line-chart {
+  background: #FFFFFF;
+  align-items: center;
+}
+
+
 

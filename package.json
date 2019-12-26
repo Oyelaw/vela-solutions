@@ -1,0 +1,33 @@
+{
+  "name": "front-end-test",
+  "version": "1.0.0",
+  "description": "simple_data_visualization",
+  "main": "index.js",
+  "author": "okiki oye-lawrence",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "recharts": "2.0.0-beta.1",
+    "url-loader": "3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.7.7",
+    "@babel/plugin-proposal-class-properties": "7.7.4",
+    "@babel/preset-env": "7.7.7",
+    "@babel/preset-react": "7.7.4",
+    "babel-loader": "8.0.6",
+    "css-loader": "3.4.0",
+    "dotenv": "^6.0.0",
+    "express": "~4.16.0",
+    "file-loader": "5.0.2",
+    "hbs": "^4.0.6",
+    "html-webpack-plugin": "3.2.0",
+    "nodemon": "2.0.2",
+    "style-loader": "1.1.1",
+    "webpack": "4.41.4",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.10.1"
+  }
+}

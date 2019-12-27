@@ -8,8 +8,13 @@
   "scripts": {
     "dev": "node ./server/www.js & yarn comp",
     "client": "yarn comp",
-    "server": "node ./server/www.js",
-    "comp": "webpack"
+    "comp": "webpack",
+    "start": "node ./public/dist/bundle.js",
+    "server": "nodemon ./public/dist/bundle.js",
+    "build": "yarn run build:client & yarn run build:server",
+    "build:client": "webpack",
+    "build:server": "webpack --server"
+    
   },
   "dependencies": {
     "react": "16.12.0",

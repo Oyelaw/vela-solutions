@@ -6,15 +6,12 @@
   "author": "okiki oye-lawrence",
   "license": "MIT",
   "scripts": {
-    "dev": "node ./server/www.js & yarn comp",
-    "client": "yarn comp",
-    "comp": "webpack",
-    "start": "node ./public/dist/bundle.js",
-    "server": "nodemon ./public/dist/bundle.js",
+    "start": "node ./bin/app.js",
+    "server": "nodemon ./bin/app.js",
     "build": "yarn run build:client & yarn run build:server",
     "build:client": "webpack",
-    "build:server": "webpack --server"
-    
+    "build:server": "webpack --server",
+    "dev": "yarn run build & yarn run server"
   },
   "dependencies": {
     "react": "16.12.0",

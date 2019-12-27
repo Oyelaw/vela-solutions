@@ -5,14 +5,27 @@ dotenv.config();
 
 const { NODE_ENV } = process.env;
 const isDev = NODE_ENV === 'development';
+const isServer = process.argv.includes('--server');
+
+const clientContext = path.resolve(__dirname, 'src');
+const serverContext = path.resolve(__dirname, 'server');
+
+const clientOutputPath = path.resolve(__dirname, 'public/dist');
+const serverOutputPath = path.resolve(__dirname, 'bin');
+
+const clientAppEntry = './index.js';
+const serverAppEntry = './www.js';
 
 module.exports = {
-  entry: path.resolve(__dirname, 'src/index'),
+  entry: {
+    app: isServer ? serverAppEntry : clientAppEntry
+  },
   watch: isDev,
+  context: isServer ? serverContext : clientContext,
   mode:NODE_ENV,
+  target: isServer ? 'node' : 'web',
   output: {
-    path: path.resolve(__dirname, 'public/dist'),
-    filename: 'bundle.js'
+    path: isServer ? serverOutputPath : clientOutputPath
   },
   module: {
     rules: [{

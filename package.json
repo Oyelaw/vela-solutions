@@ -2,7 +2,7 @@
   "name": "front-end-test",
   "version": "1.0.0",
   "description": "simple_data_visualization",
-  "main": "index.js",
+  "main": "./bin/app.js",
   "author": "okiki oye-lawrence",
   "license": "MIT",
   "scripts": {

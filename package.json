@@ -6,9 +6,10 @@
   "author": "okiki oye-lawrence",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon ./server/www.js & yarn build",
-    "start": "node ./server/www.js & yarn build",
-    "build": "webpack"
+    "dev": "nodemon ./server/www.js & yarn comp",
+    "client": "yarn comp",
+    "server": "node ./server/www.js",
+    "comp": "webpack"
   },
   "dependencies": {
     "react": "16.12.0",

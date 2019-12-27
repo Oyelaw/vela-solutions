@@ -6,7 +6,7 @@
   "author": "okiki oye-lawrence",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon ./server/www.js & yarn comp",
+    "dev": "node ./server/www.js & yarn comp",
     "client": "yarn comp",
     "server": "node ./server/www.js",
     "comp": "webpack"

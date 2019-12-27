@@ -5,7 +5,7 @@
     "fixtures/*",
     "public",
     "react",
-    "server",
+    "server"
   ],
   "execMap": {
     "handlebars": "handlebars",
